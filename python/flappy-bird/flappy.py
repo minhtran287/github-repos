@@ -1,7 +1,7 @@
 import pgzrun
 import random
 
-WIDTH = 400
+WIDTH = 600
 HEIGHT = 500
 
 GRAVITY = 0.3
@@ -36,7 +36,6 @@ def draw():
         "FLAPPY BIRD",
         center=(WIDTH // 2, 150),
         fontsize=100,
-        fontname="flappy",
         color="yellow"
         )
 
@@ -44,7 +43,6 @@ def draw():
         "Press SPACE to start",
         center=(WIDTH // 2, 250),
         fontsize=60,
-        fontname="flappy",
         color="white"
         )   
     
@@ -67,7 +65,6 @@ def draw():
             "GAME OVER",
             center=(WIDTH // 2, HEIGHT // 2),
             fontsize=100,
-            fontname="flappy",
             color="red"
         )
 
@@ -75,7 +72,6 @@ def draw():
             "Press R to restart",
             center=(WIDTH // 2, HEIGHT // 2 + 55),
             fontsize=60,
-            fontname="flappy",
             color="white"
         )
 
@@ -122,8 +118,7 @@ def update_pipes():
     if not bird.dead:
         pipe_top.left -= current_speed
         pipe_bottom.left -= current_speed
-
-       
+   
         if pipe_top.right < bird.x and not pipe_scored:
             score += 1
             pipe_scored = True

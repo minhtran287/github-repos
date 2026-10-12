@@ -1,0 +1,80 @@
+WARNING: wasm mimetype unsupported on that system, trying to correct
+ *pygbag 0.9.3*
+
+Serving python files from [C:\github-repos\python\flappy-bird\build\web]
+
+with no security/performance in mind, i'm just a test tool : don't rely on me
+
+
+SUMMARY
+________________________
+
+# the app folder
+app_folder=C:\github-repos\python\flappy-bird
+
+# artefacts directory
+build_dir=C:\github-repos\python\flappy-bird\build\web
+
+# cache directory
+cache=C:\github-repos\python\flappy-bird\build\web-cache
+
+# the window title and icon name
+app_name=flappy-bird
+
+# package name, better make it unique
+package=web.pygame.flappy-bird-1791779470
+
+# icons:  96x96 for desktop, 16x16 for web
+icon=favicon.png
+
+# js/wasm provider
+cdn=https://pygame-web.github.io/cdn/0.9.3/
+
+now packing application ....
+
+
+WARNING: No pygbag.ini found! See: https://pygame-web.github.io/wiki/pygbag-configuration
+Ignored dirs: []
+Ignored files: []
+Now in \
+     \birddrawing.py
+     \buildlog.txt
+     \main.py
+Now in \images
+     \images\background.png
+     \images\bird1.png
+     \images\bird2.png
+     \images\birddead.png
+     \images\bottom.png
+     \images\top.png
+	C:\github-repos\python\flappy-bird : birddrawing.py
+	C:\github-repos\python\flappy-bird : buildlog.txt
+	C:\github-repos\python\flappy-bird : main.py
+	C:\github-repos\python\flappy-bird : images\background.png
+	C:\github-repos\python\flappy-bird : images\bird1.png
+	C:\github-repos\python\flappy-bird : images\bird2.png
+	C:\github-repos\python\flappy-bird : images\birddead.png
+	C:\github-repos\python\flappy-bird : images\bottom.png
+	C:\github-repos\python\flappy-bird : images\top.png
+	C:\github-repos\python\flappy-bird : birddrawing.py
+	C:\github-repos\python\flappy-bird : buildlog.txt
+	C:\github-repos\python\flappy-bird : main.py
+	C:\github-repos\python\flappy-bird : images\background.png
+	C:\github-repos\python\flappy-bird : images\bird1.png
+	C:\github-repos\python\flappy-bird : images\bird2.png
+	C:\github-repos\python\flappy-bird : images\birddead.png
+	C:\github-repos\python\flappy-bird : images\bottom.png
+	C:\github-repos\python\flappy-bird : images\top.png
+packing 9 files complete
+
+    building from local cached template https://pygame-web.github.io/cdn/0.9.3/default.tmpl
+    cached at C:\github-repos\python\flappy-bird\build\web-cache\27613e24ba16d44f2a5c88150c6d64e5.tmpl
+    result files will be in C:\github-repos\python\flappy-bird\build\web
+
+
+    using icon from local cached file https://pygame-web.github.io/cdn/0.9.3/favicon.png
+    cached at C:\github-repos\python\flappy-bird\build\web-cache\29a2a48092f8c1a6595a20019f830691.png
+Not using SSL
+Serving HTTP on 127.0.0.1 port 8000 (http://localhost:8000/) ...
+
+Keyboard interrupt received, exiting.
